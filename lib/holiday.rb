@@ -29,7 +29,7 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, holiday|
-  capitalized_holiday.to_s 
+  capitalized_holiday = holiday.to_s 
   
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
